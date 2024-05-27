@@ -1,0 +1,87 @@
+.post {
+  margin: 30px 40px;
+  width: 500px;
+}
+
+.postHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.postHeader-author {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.postHeader-author span {
+  font-weight: 100;
+  color: grey;
+  align-items: center;
+}
+
+.seperator {
+  margin: 0 6px;
+  font-weight: 500;
+}
+
+/* .postHeader-author span > .username {
+  font-weight: 500;
+} */
+/* 
+.username:hover {
+  cursor: pointer;
+  font-weight: 600;
+} */
+.postHeaderElement {
+  margin: 0 6px;
+}
+
+.timestamp {
+  margin-right: 6px;
+}
+
+.postFooterIcons {
+  display: flex;
+  flex-direction: row;
+  padding: 3px 1px;
+  justify-content: space-between;
+}
+.interaction {
+  padding: 0 4px;
+  font-size: 20px;
+}
+
+.interaction:hover,
+.savePost:hover,
+.postHeaderElement:hover,
+.moreHoriz:hover,
+.username:hover,
+.postDetails:hover {
+  cursor: pointer;
+}
+
+.savePost {
+  margin-right: 0;
+  font-size: 20px;
+}
+
+.postImage img {
+  width: 100%;
+  border-radius: 3px;
+  border: 0.6px solid rgba(178, 178, 178, 0.516);
+}
+
+.postDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.postDetails span {
+  font-weight: bold;
+}

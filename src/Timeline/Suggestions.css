@@ -1,0 +1,58 @@
+.suggestions {
+  margin-left: 90px;
+  margin-right: 50px;
+  width: 350px;
+}
+
+.suggestions-title {
+  font-weight: bold;
+  color: rgb(88, 88, 87);
+  display: flex;
+  justify-content: space-between;
+  margin-right: 8px;
+}
+
+.suggestions-title span {
+  color: black;
+}
+
+.suggestions-title span:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.suggestion-username {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.username-left {
+  display: flex;
+  align-items: center;
+}
+
+.username-right button {
+  background: 0;
+  border: 0;
+  font-weight: bolder;
+  color: rgb(102, 135, 197);
+}
+
+.username-right button:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.username-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.relation {
+  color: grey;
+  font-size: 14px;
+}
