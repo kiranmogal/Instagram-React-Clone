@@ -47,43 +47,36 @@ function Timeline() {
               src="public\cf.jpg"
               sx={{ width: 55, height: 55 }}
             ></Avatar>
-            username
             <Avatar
               className="story-users"
               src="public\dam.jpg"
               sx={{ width: 55, height: 55 }}
             ></Avatar>
-            username
             <Avatar
               className="story-users"
               src="public\eg.jpg"
               sx={{ width: 55, height: 55 }}
             ></Avatar>
-            username
             <Avatar
               className="story-users"
               src="public\kp1.jpg"
               sx={{ width: 55, height: 55 }}
             ></Avatar>
-            username
             <Avatar
               className="story-users"
               src="public\stf.jpg"
               sx={{ width: 55, height: 55 }}
             ></Avatar>
-            username
             <Avatar
               className="story-users"
               src="public\kp3.jpg"
               sx={{ width: 55, height: 55 }}
             ></Avatar>
-            username
             <Avatar
               className="story-users"
               src="public\eg.jpg"
               sx={{ width: 55, height: 55 }}
             ></Avatar>
-            username
           </div>
           <div className="profile">Profile</div>
         </div>

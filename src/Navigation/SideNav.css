@@ -6,6 +6,7 @@
   z-index: 1; /*this makes navbar to be on top of all elements on screen */
   box-shadow: 20px;
   width: 15%;
+  height: 100vh;
 }
 
 .sidenavLogo {
@@ -16,6 +17,8 @@
 .sidenavButtons {
   display: flex;
   flex-direction: column;
+  margin-bottom: 180px;
+  top: 5px;
 }
 
 .sidenavbutton {
