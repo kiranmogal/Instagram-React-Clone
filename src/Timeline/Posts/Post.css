@@ -85,3 +85,10 @@
 .postDetails span {
   font-weight: bold;
 }
+
+@media only screen and (orientation: portrait) {
+  .post {
+    width: 300px;
+    margin-left: 100px;
+  }
+}

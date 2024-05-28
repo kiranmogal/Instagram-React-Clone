@@ -56,3 +56,34 @@
   color: grey;
   font-size: 14px;
 }
+
+@media only screen and (max-width: 982px) {
+  .suggestions {
+    margin-left: 2rem;
+  }
+
+  .suggestions-title {
+    font-size: 0;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .suggestions span {
+    font-size: 0;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  .username-right button {
+    display: none;
+  }
+  .suggestions-title span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .avatar {
+    display: none;
+  }
+}

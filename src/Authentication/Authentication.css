@@ -1,0 +1,6 @@
+.auth-bottom {
+  bottom: 0;
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+}

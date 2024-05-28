@@ -10,9 +10,9 @@
 }
 
 .stories {
-  height: 80%;
-  width: 55%;
-  /* background-color: rgb(191, 171, 209); */
+  height: 13vh;
+  width: 90vh;
+  background-color: rgb(191, 171, 209);
   display: flex;
 }
 
@@ -28,4 +28,7 @@
 
 .timelineright {
   flex: 0.3;
+}
+
+@media only screen and (max-width: 1190px) {
 }
