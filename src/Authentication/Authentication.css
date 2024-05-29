@@ -1,6 +1,68 @@
 .auth-bottom {
   bottom: 0;
-  position: absolute;
+  position: fixed;
   width: 100vw;
   text-align: center;
+  /* overflow-y: scroll; */
+}
+
+.auth-top {
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 40vw;
+  /* background-color: aqua; */
+}
+
+.auth-more {
+  border: 1px solid rgb(226, 223, 223);
+  padding: 1em;
+  text-align: center;
+  border-radius: 0.1em;
+}
+
+.auth-more span {
+  font-size: 0.9em;
+}
+
+.auth-more span > button {
+  border: 0;
+  background: 0;
+  font-size: 1em;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(66, 186, 242);
+  font-weight: 500;
+}
+.auth-more span > button:hover {
+  cursor: pointer;
+}
+
+.auth-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 12px 3px;
+}
+
+.auth-app img {
+  height: 4.5;
+  width: 8em;
+  align-self: center;
+}
+
+.auth-app span {
+  margin: 14px 0;
+}
+
+.app-images {
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.app-images img {
+  margin: 4px 4px;
+}
+.google-play {
+  height: 2.9em;
 }

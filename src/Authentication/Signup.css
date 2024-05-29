@@ -1,0 +1,66 @@
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(226, 223, 223);
+  padding: 1em 2em;
+  margin: 15px 0;
+}
+
+.signup-top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.signup > img {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+.signup input {
+  padding: 5px 6px;
+  align-items: center;
+  margin: 4px 0;
+  border: 1px solid rgb(226, 223, 223);
+}
+
+.signup > input::placeholder {
+  font-size: smaller;
+}
+
+.signup-button {
+  margin: 6px 0;
+  border: 0;
+  background-color: rgba(76, 181, 249, 255);
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  border-radius: 0.3em;
+  padding: 6px 0;
+}
+
+.facebook-login {
+  margin: 15px 0;
+  border: 0;
+  background-color: rgba(76, 181, 249, 255);
+  color: white;
+  font-weight: bold;
+  border-radius: 0.3em;
+}
+
+.fbicon {
+  margin-top: 2px;
+}
+
+.signup p {
+  text-align: center;
+  color: grey;
+}
+
+.signup a {
+  margin: 0 3px;
+  text-decoration: none;
+}
