@@ -1,0 +1,39 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(226, 223, 223);
+  padding: 1em 2em;
+}
+
+.login > img {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+.login input {
+  padding: 5px 6px;
+  align-items: center;
+  margin: 4px 0;
+  border: 1px solid rgb(226, 223, 223);
+}
+
+.login > input::placeholder {
+  font-size: smaller;
+}
+
+.login button {
+  margin: 6px 0;
+  border: 0;
+  background-color: rgba(76, 181, 249, 255);
+  color: white;
+  font-weight: bold;
+  border-radius: 0.3em;
+  padding: 4px 0;
+}
+
+.facebook-login {
+  background-color: rgb(255, 255, 255);
+}

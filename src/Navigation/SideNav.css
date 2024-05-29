@@ -5,7 +5,7 @@
   justify-content: space-between;
   z-index: 1; /*this makes navbar to be on top of all elements on screen */
   box-shadow: 20px;
-  width: 15%;
+  width: 30vh;
   height: 100vh;
 }
 
@@ -57,4 +57,19 @@
 
 .nav-icon {
   font-size: x-large;
+}
+
+@media only screen and (max-width: 1190px) {
+  .sidenav-container {
+    border-right: none;
+    width: 10vh;
+    z-index: 1;
+    background-color: white;
+  }
+  .sidenavbutton span {
+    font-size: 0;
+  }
+  .sidenavLogo {
+    display: none;
+  }
 }
