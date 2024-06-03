@@ -4,18 +4,25 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
+  updateProfile,
 } from "firebase/auth";
 import { auth } from "../firebase";
 
 function Signup() {
-  const [email, setEmail] = useState();
-  const [username, setUsername] = useState();
-  const [password, setPassword] = useState();
+  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleSignup = () => {
-    createUserWithEmailAndPassword(auth, email, password).then(
-      signInWithEmailAndPassword(auth, email, password)
-    );
+    createUserWithEmailAndPassword(auth, email, password)
+      .then(
+        signInWithEmailAndPassword(auth, email, password).then(
+          updateProfile(auth.currentUser, { displayName: username })
+        )
+      )
+      .catch((err) => {
+        alert(err);
+      });
   };
   return (
     <div className="signup">
@@ -27,7 +34,7 @@ function Signup() {
       <div className="signup-top">
         <span>Sign up to see photos and videos from your friends.</span>
         <button className="facebook-login">
-          <FacebookIcon className="fbicon" />
+          <FacebookIcon />
           Login with Facebook
         </button>
       </div>

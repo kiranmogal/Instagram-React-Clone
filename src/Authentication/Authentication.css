@@ -1,15 +1,8 @@
-.auth-bottom {
-  bottom: 0;
-  position: fixed;
-  width: 100vw;
-  text-align: center;
-  /* overflow-y: scroll; */
-}
-
 .auth-top {
-  flex-direction: row;
-  justify-content: center;
-  margin: 0 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 0 40vw; */
   /* background-color: aqua; */
 }
 
@@ -22,15 +15,17 @@
 
 .auth-more span {
   font-size: 0.9em;
+  min-width: 17vw;
+  /* display: inline; */
 }
 
 .auth-more span > button {
   border: 0;
   background: 0;
   font-size: 1em;
-  font-family: "Times New Roman", Times, serif;
   color: rgb(66, 186, 242);
   font-weight: 500;
+  width: 10.5em;
 }
 .auth-more span > button:hover {
   cursor: pointer;
@@ -65,4 +60,41 @@
 }
 .google-play {
   height: 2.9em;
+}
+
+.auth-bottom {
+  bottom: 0;
+  /* position: sticky; */
+  width: 100vw;
+  text-align: center;
+  margin-top: 10em;
+  font-size: smaller;
+  font-weight: 200;
+  color: rgb(136, 134, 134);
+  padding: 15px 0;
+  /* overflow-y: scroll; */
+}
+
+.auth-bottom span {
+  margin: 0 7px;
+}
+
+.auth-bottom p button {
+  margin: 0 4px;
+  border: 0;
+  background-color: white;
+  color: rgb(136, 134, 134);
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 320px) {
+  .auth-more {
+    border: 0;
+  }
+  .auth-bottom {
+    font-size: 10px;
+    width: 3em;
+    text-align: center;
+  }
 }

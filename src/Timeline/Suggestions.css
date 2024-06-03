@@ -5,8 +5,8 @@
 }
 
 .suggestions-title {
-  font-weight: bold;
-  color: rgb(88, 88, 87);
+  font-weight: 550;
+  color: rgb(126, 126, 124);
   display: flex;
   justify-content: space-between;
   margin-right: 8px;
@@ -55,35 +55,29 @@
 .relation {
   color: grey;
   font-size: 14px;
+  font-weight: 350;
 }
 
 @media only screen and (max-width: 982px) {
   .suggestions {
     margin-left: 2rem;
   }
+}
 
+@media only screen and (max-width: 1010px) {
   .suggestions-title {
     font-size: 0;
   }
-}
-
-@media only screen and (max-width: 770px) {
-  .suggestions span {
-    font-size: 0;
-  }
-}
-
-@media only screen and (max-width: 1070px) {
   .username-right button {
     display: none;
   }
   .suggestions-title span {
     display: none;
   }
-}
-
-@media only screen and (max-width: 550px) {
   .avatar {
+    display: none;
+  }
+  .suggestions span {
     display: none;
   }
 }

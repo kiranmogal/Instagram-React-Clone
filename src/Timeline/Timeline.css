@@ -12,7 +12,7 @@
 .stories {
   height: 13vh;
   width: 90vh;
-  background-color: rgb(191, 171, 209);
+  /* background-color: rgb(157, 138, 173); */
   display: flex;
 }
 
@@ -28,6 +28,49 @@
 
 .timelineright {
   flex: 0.3;
+}
+
+.profile {
+  /* background-color: rgb(194, 215, 216); */
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  width: 22em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile button {
+  border: 0;
+  background-color: white;
+  color: rgb(102, 135, 197);
+  font-weight: 900;
+  margin-right: 5px;
+}
+
+.profile button:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.user-profile {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.profile-name {
+  flex-direction: column;
+  display: flex;
+  margin: 2px 8px;
+}
+.userName {
+  font-weight: bold;
+}
+.onlyName {
+  font-weight: lighter;
+  font-size: small;
 }
 
 @media only screen and (max-width: 1190px) {

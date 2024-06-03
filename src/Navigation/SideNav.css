@@ -6,7 +6,7 @@
   z-index: 1; /*this makes navbar to be on top of all elements on screen */
   box-shadow: 20px;
   width: 30vh;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .sidenavLogo {
@@ -17,8 +17,8 @@
 .sidenavButtons {
   display: flex;
   flex-direction: column;
-  margin-bottom: 180px;
-  top: 5px;
+  /* margin-bottom: 180px; */
+  /* top: 5px; */
 }
 
 .sidenavbutton {
@@ -59,6 +59,45 @@
   font-size: x-large;
 }
 
+.modal-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.more-button {
+  text-align: left;
+  /* background-color: rgb(27, 153, 111); */
+  padding: 1em 1em;
+  border: 0;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+  width: 14em;
+}
+
+.more-button:hover {
+  cursor: pointer;
+  background-color: rgb(243, 237, 237);
+}
+
+/* .more-button-acc {
+  border-top: 1px solid rgb(44, 32, 32);
+  padding: 1em 6em;
+  border: 0;
+  background-color: white;
+  margin: 2px 2px;
+  border-radius: 10px;
+} */
+/* .more-button-acc:hover {
+  cursor: pointer;
+  background-color: rgb(243, 237, 237);
+} */
+
+@media only screen and (max-width: 1300px) {
+  .sidenav-container {
+    border-right: none;
+  }
+}
 @media only screen and (max-width: 1190px) {
   .sidenav-container {
     border-right: none;
@@ -71,5 +110,11 @@
   }
   .sidenavLogo {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .sidenav-container {
+    border-right: none;
   }
 }

@@ -45,40 +45,49 @@ function Timeline() {
             <Avatar
               className="story-users"
               src="public\cf.jpg"
-              sx={{ width: 55, height: 55 }}
+              sx={{ width: 60, height: 60 }}
             ></Avatar>
             <Avatar
               className="story-users"
               src="public\dam.jpg"
-              sx={{ width: 55, height: 55 }}
+              sx={{ width: 60, height: 60 }}
             ></Avatar>
             <Avatar
               className="story-users"
               src="public\eg.jpg"
-              sx={{ width: 55, height: 55 }}
+              sx={{ width: 60, height: 60 }}
             ></Avatar>
             <Avatar
               className="story-users"
               src="public\kp1.jpg"
-              sx={{ width: 55, height: 55 }}
+              sx={{ width: 60, height: 60 }}
             ></Avatar>
             <Avatar
               className="story-users"
               src="public\stf.jpg"
-              sx={{ width: 55, height: 55 }}
+              sx={{ width: 60, height: 60 }}
             ></Avatar>
             <Avatar
               className="story-users"
               src="public\kp3.jpg"
-              sx={{ width: 55, height: 55 }}
+              sx={{ width: 60, height: 60 }}
             ></Avatar>
             <Avatar
               className="story-users"
               src="public\eg.jpg"
-              sx={{ width: 55, height: 55 }}
+              sx={{ width: 60, height: 60 }}
             ></Avatar>
           </div>
-          <div className="profile">Profile</div>
+          <div className="profile">
+            <div className="user-profile">
+              <Avatar sx={{ width: 55, height: 55 }}>K</Avatar>
+              <div className="profile-name">
+                <span className="userName">username</span>
+                <span className="onlyName">Name</span>
+              </div>
+            </div>
+            <button>Switch</button>
+          </div>
         </div>
         <div className="timeline">
           <div className="timelineleft">

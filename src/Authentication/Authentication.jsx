@@ -18,7 +18,6 @@ function Authentication() {
         {/* <Signup></Signup> */}
         <div className="auth-more">
           <span>
-            {" "}
             {active === "login" ? (
               <>
                 Don't have an account?

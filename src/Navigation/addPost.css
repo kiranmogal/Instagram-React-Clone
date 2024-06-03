@@ -1,0 +1,8 @@
+.homepage {
+  display: flex;
+  background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+}
+.addpost {
+  top: 0;
+  z-index: 8;
+}

@@ -4,6 +4,9 @@
   justify-content: center;
   border: 1px solid rgb(226, 223, 223);
   padding: 1em 2em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  min-width: 17vw;
 }
 
 .login > img {
@@ -36,4 +39,61 @@
 
 .facebook-login {
   background-color: rgb(255, 255, 255);
+  border: 0;
+  background-color: white;
+}
+.facebook-login:hover,
+.login button {
+  cursor: pointer;
+}
+
+.login p {
+  text-align: center;
+  color: grey;
+}
+
+.login p span {
+  color: rgb(204, 201, 201);
+}
+
+.password-forgotten {
+  color: rgb(62, 62, 185);
+  font-size: small;
+}
+
+@media only screen and (max-width: 320px) {
+  .login {
+    border: 0;
+  }
+}
+
+@media only screen and (max-width: 225px) {
+  .login {
+    /* min-width: 5vw; */
+    margin-left: 5em;
+  }
+  .login img {
+    width: 170px;
+    margin-left: 1px;
+    margin-right: 6em;
+  }
+}
+
+@media only screen and (max-width: 225px) {
+  .login {
+    padding: 0 10em;
+  }
+  .login input {
+    margin: 4px 20px;
+    justify-content: left;
+  }
+  .login button,
+  .facebook-login {
+    /* width: 7em; */
+    margin-right: 5em;
+  }
+  .login p,
+  .password-forgotten {
+    margin-right: 5em;
+  }
 }

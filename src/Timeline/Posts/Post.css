@@ -86,7 +86,14 @@
   font-weight: bold;
 }
 
-@media only screen and (orientation: portrait) {
+@media only screen and (max-width: 1250px) {
+  .post {
+    width: 400px;
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 548px) {
   .post {
     width: 300px;
     margin-left: 100px;

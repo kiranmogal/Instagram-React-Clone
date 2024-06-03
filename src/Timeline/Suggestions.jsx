@@ -13,7 +13,7 @@ function Suggestions() {
         <div className="suggestion-username">
           <div className="username-left">
             <span className="avatar">
-              <Avatar>k</Avatar>
+              <Avatar sx={{ width: 55, height: 55 }}>k</Avatar>
             </span>
             <div className="username-info">
               <span className="username">katherinepierce</span>
@@ -27,7 +27,7 @@ function Suggestions() {
         <div className="suggestion-username">
           <div className="username-left">
             <span className="avatar">
-              <Avatar>k</Avatar>
+              <Avatar sx={{ width: 55, height: 55 }}>k</Avatar>
             </span>
             <div className="username-info">
               <span className="username">katherinepierce</span>
@@ -41,7 +41,7 @@ function Suggestions() {
         <div className="suggestion-username">
           <div className="username-left">
             <span className="avatar">
-              <Avatar>k</Avatar>
+              <Avatar sx={{ width: 55, height: 55 }}>k</Avatar>
             </span>
             <div className="username-info">
               <span className="username">katherinepierce</span>
@@ -55,7 +55,7 @@ function Suggestions() {
         <div className="suggestion-username">
           <div className="username-left">
             <span className="avatar">
-              <Avatar>k</Avatar>
+              <Avatar sx={{ width: 55, height: 55 }}>k</Avatar>
             </span>
             <div className="username-info">
               <span className="username">katherinepierce</span>
@@ -69,7 +69,7 @@ function Suggestions() {
         <div className="suggestion-username">
           <div className="username-left">
             <span className="avatar">
-              <Avatar>k</Avatar>
+              <Avatar sx={{ width: 55, height: 55 }}>k</Avatar>
             </span>
             <div className="username-info">
               <span className="username">katherinepierce</span>
