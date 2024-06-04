@@ -93,6 +93,44 @@
   background-color: rgb(243, 237, 237);
 } */
 
+.post-box-head {
+  justify-content: center;
+  display: flex;
+  padding: 0.5em;
+  border-bottom: 1px solid rgb(221, 217, 217);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.post-box-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35% 20%;
+}
+
+#post-box-icon {
+  font-size: 1.5cm;
+  margin-bottom: 0.3em;
+}
+
+.post-box-body span {
+  font-size: larger;
+}
+
+.post-box-body button {
+  border: 0;
+  background-color: rgb(99, 140, 216);
+  color: white;
+  padding: 6px 16px;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+
+.post-box-body button:hover {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1300px) {
   .sidenav-container {
     border-right: none;

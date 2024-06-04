@@ -20,8 +20,22 @@ import { LuActivity } from "react-icons/lu";
 import { FiBookmark } from "react-icons/fi";
 import { WiDaySunny } from "react-icons/wi";
 import { TbMessageReport } from "react-icons/tb";
+import CollectionsIcon from "@mui/icons-material/Collections";
 
-const style = {
+const postBoxStyle = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  width: 500,
+  height: 500,
+  bgcolor: "background.paper",
+  border: "1px solid #858282",
+  boxShadow: 24,
+  borderRadius: 5,
+};
+
+const moreButtonStyle = {
   position: "absolute",
   top: "60%",
   left: "10%",
@@ -32,6 +46,7 @@ const style = {
   boxShadow: 24,
   p: 2,
   elevation: 3,
+  borderRadius: 5,
 };
 
 const SideNav = () => {
@@ -47,7 +62,12 @@ const SideNav = () => {
     signOut(auth);
   };
 
-  // const [post, addPost] = useEffect("");
+  // CREATE POST
+  const [post, createPost] = useState(0);
+
+  const handlePostOpen = () => createPost(true);
+  const handlePostClose = () => createPost(false);
+
   return (
     <div className="sidenav-container">
       <img className="sidenavLogo" src="public/logo.png" alt="InstagramLogo" />
@@ -83,10 +103,20 @@ const SideNav = () => {
           <span>Notifications</span>
         </button>
 
-        <button className="sidenavbutton">
+        <button onClick={handlePostOpen} className="sidenavbutton">
           <AddCircleOutlineIcon />
           <span>Create</span>
         </button>
+        <Modal open={post} onClose={handlePostClose}>
+          <Box className="add-post-box" sx={postBoxStyle}>
+            <span className="post-box-head">Create new post</span>
+            <div className="post-box-body">
+              <CollectionsIcon id="post-box-icon" />
+              <span>Drag photos and videos here</span>
+              <button>Select from computer</button>
+            </div>
+          </Box>
+        </Modal>
 
         <button className="sidenavbutton">
           <Avatar
@@ -108,7 +138,7 @@ const SideNav = () => {
           <span>More</span>
         </button>
         <Modal open={open} onClose={handleClose}>
-          <Box className="modal-box" sx={style}>
+          <Box className="modal-box" sx={moreButtonStyle}>
             <button className="more-button">
               <IoIosSettings style={{ width: 24, height: 24 }} />
               Settings
