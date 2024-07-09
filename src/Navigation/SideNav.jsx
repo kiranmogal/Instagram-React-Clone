@@ -113,7 +113,10 @@ const SideNav = () => {
             <div className="post-box-body">
               <CollectionsIcon id="post-box-icon" />
               <span>Drag photos and videos here</span>
-              <button>Select from computer</button>
+              <label htmlFor="post-input" className="post-input-label">
+                <input type="file" id="post-input" />
+                Select from computer
+              </label>
             </div>
           </Box>
         </Modal>

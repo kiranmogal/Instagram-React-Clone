@@ -65,7 +65,9 @@
 }
 
 .more-button {
+  display: flex;
   text-align: left;
+  gap: 1em;
   /* background-color: rgb(27, 153, 111); */
   padding: 1em 1em;
   border: 0;
@@ -73,6 +75,7 @@
   margin: auto;
   border-radius: 10px;
   width: 14em;
+  align-items: center;
 }
 
 .more-button:hover {
@@ -118,7 +121,7 @@
   font-size: larger;
 }
 
-.post-box-body button {
+.post-box-body input {
   border: 0;
   background-color: rgb(99, 140, 216);
   color: white;
@@ -127,7 +130,7 @@
   margin-top: 1em;
 }
 
-.post-box-body button:hover {
+.post-box-body input:hover {
   cursor: pointer;
 }
 
